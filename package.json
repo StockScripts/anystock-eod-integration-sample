@@ -1,0 +1,28 @@
+{
+  "name": "EOD-sample",
+  "version": "1.0.0",
+  "description": "sample of integration EOD and AnyStock",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anychart-integrations/anystock-eod-integration-sample.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "homepage": "https://anychart.com",
+  "keywords": [
+    "anychart",
+    "anystock",
+    "charts",
+    "javascript charts",
+    "plots",
+    "javascript",
+    "SVG",
+    "HTML5"
+  ],
+  "author": "AnyChart <contact@anychart.com> (http://anychart.com)",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
