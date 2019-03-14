@@ -1,9 +1,10 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://www.anychart.com)
 # AnyStock - EOD Historical Data integration demo
-This demo shows how to use AnyStock charts with real-time data and apply analysis tools.
+This demo shows how to use AnyStock charts with EOD Historical Data vendor.
 
 ## Overview
 AnyStock offers a large set of features, that allow you to build your online financial portal and one of the most exciting features is the ability to draw/display on the chart so called drawing tools or, as they are called in our [documentation](https://docs.anychart.com/) and settings, annotations.
+
 EOD Historical Data provides FUNDAMENTAL data, REAL-TIME and DAILY historical stock prices for stocks, ETFs and Mutual Funds all around the world. Market coverage is more than 60+ stock exchanges and more than 120 000+ symbols all over the world. We also support 120+ CRYPTO currencies and 150+ FOREX pairs.
 
 ## Running
