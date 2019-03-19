@@ -26,7 +26,9 @@ app.get('/', function(req, res) {
   });
 });
 
+var port = process.argv[2] || 8080;
+
 // Runs express server
-app.listen(8080, function() {
-  console.log('Example app is listening on localhost:' + 8080 + '\n');
+app.listen(port, function() {
+  console.log('Example app is listening on localhost:' + port + '\n');
 });

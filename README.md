@@ -27,12 +27,17 @@ Install dependencies:
 npm install
 ```
 
-Run the nodejs server which executes a request to EOD server and forwards received data to the client side:
+Run the nodejs server with `-- {PORT}` argument to start a NodeJS server on the required port. The default port is 8080. The server executes a request to EOD server and forwards received data to the client side.
 ```bash
-npm run start
+npm run start -- {PORT}
+```
+For example, launch command with a 8088 port is the following:
+```bash
+npm run start -- 8088
 ```
 
-Open browser at `http://localhost:8080/`.
+Open browser at `http://localhost:{PORT}/`.
+For example, for a 8088 port: `http://localhost:8088/`.
 
 Please, keep in mind that receiving data from the EOD server may take a few seconds.
 
