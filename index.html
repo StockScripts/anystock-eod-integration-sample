@@ -25,12 +25,12 @@
 <script>
   anychart.onDocumentReady(function () {
     // create data table on loaded data
-    // date field defines what field in EOD JSON data provides dateTime
+    // date field defines what field in receiving JSON data provides dateTime
     var dataTable = anychart.data.table('date');
     dataTable.addData('{{data}}');
 
     // map loaded data
-    // fields' string names are equal to EOD JSON data fields
+    // fields' string names are equal to receiving JSON data fields
     var mapping = dataTable.mapAs({
       open: 'open',
       high: 'high',
@@ -47,10 +47,10 @@
     // create candlestick series on the plot
     var series = plot.candlestick(mapping);
     // set series settings
-    series.name('EUR.FOREX');
+    series.name('AAPL.US');
 
     // set chart title
-    chart.title('Stock chart based on EOD data');
+    chart.title('Stock chart based on Historical Data Feed');
 
     // set container id for the chart and initiate chart drawing
     chart.container('container').draw();

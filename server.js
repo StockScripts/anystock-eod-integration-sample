@@ -8,9 +8,7 @@ var app = express();
 //create the HTML page and send to the host
 app.get('/', function(req, res) {
 
-  // learn more about this get request here:
-  // https://eodhistoricaldata.com/knowledgebase/list-supported-currencies/
-  https.get('https://eodhistoricaldata.com/api/eod/EUR.FOREX?api_token=OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX&order=d&fmt=json', function(response) {
+  https.get('https://www.anychart.com/products/anystock/data/feed/?key[]=AAPL.US&format=json&kind=eod', function(response) {
     var data = '';
     // wait for the whole answer
     response.on('data', function(chunk) {
